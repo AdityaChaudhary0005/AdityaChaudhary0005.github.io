@@ -1,18 +1,9 @@
-window.onscroll = function() {fixedNavbar()};
-
-var navbar = document.getElementById("nav-bar");
-console.log(navbar)
-
-var sticky = navbar.offsetTop;
-
-function fixedNavbar()
-{
-    if ( window.pageXOffset >= sticky)
-    {
-        navbar.classList.add("sticky")
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
     }
-    else
-    {
-        navbar.classList.remove("sticky")
-    }
-}
+  }
