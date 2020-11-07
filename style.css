@@ -1,0 +1,225 @@
+body{
+    margin:0px;
+    font-family: "Baloo Tammudu 2";
+}
+a{
+    text-decoration: none;
+
+}
+#nav-bar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #679b9b;
+    font-family: "Baloo Tammudu 2";
+    box-shadow: 0 0 5px 2px;
+    position: relative;
+   
+}
+
+.navbar{
+    float: right;
+
+    display: block;
+    color:#f8f4f4;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+   
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+
+.navbar:hover:not(.active) {
+    background-color: #338d99;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.active{
+    background-color: #8bcdcd;
+}
+
+
+.profile{
+    margin: 27px;
+    width: 35%;
+    height: auto;
+    border-radius: 50%;
+    float: right;
+    box-shadow: 0 0 10px 1px;
+    border: 10px solid #214252;
+    animation: pfp 1.5s ease-out;
+
+   
+    
+}
+
+.profile:hover{
+    box-shadow: 0 0 5px 5px;
+}
+
+@keyframes pfp{
+    from{ width: 300px; height: 300px; opacity: 0.3;}
+    to { width: 35%; height: 450px; opacity: 1;}
+}
+
+
+
+
+h1{
+    margin-top: 10%;
+    color: #ce6262;
+    margin-left: 8%;
+    
+}
+
+.short-intro{
+    
+    max-width: 600px;
+    margin-left:8%;
+    font-size: 1.5rem;
+    color: #14313f;
+    animation: text-float 1s;
+}
+
+@keyframes text-float {
+    from{margin-left: 0.1%; opacity: 0;}
+    to { margin-left: 8%; opacity: 1;}
+}
+
+#heading-center{
+    color: #214252;
+    margin-top: 70px;
+    font-size: 45px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+#subheading-center{
+    color:#59466b;
+    margin-top: 150px;
+    font-size: 45px;
+    text-align: center;    
+}
+
+.project-container{
+   display: flex;
+   flex: initial;
+   background-color: #b6e9d5;
+   margin-top: 1.5rem;
+   justify-content: center;
+   flex-direction: row ;
+   flex-wrap: wrap;
+
+}
+
+.flex-box{
+    flex: 500px;
+    order: 2;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    height: auto;  
+    overflow-y: hidden;
+    background-color: #f6f5f1;
+    box-shadow: 0 0 8px 0px;
+    border-radius: 20px;
+    justify-content: space-around;
+    border: 1px solid rgb(75, 75, 75);
+}
+
+.flex-box:hover{
+    box-shadow: 0 0 12px 2px;
+
+}
+
+.flex-box h1{
+    
+    color:#ce6262;
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: center !important;
+
+}
+
+.flex-box h2{
+    color:#6276ce;
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: center !important;
+    font-size: 180%;
+}
+
+.flex-box p{
+    color: #214252;
+    text-align: center;
+    font-size:  21px;
+}
+
+
+.bg{
+    
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 0 8px 1px black;
+    transition: 1.5s ease;
+    background-repeat: no-repeat;
+  
+
+}
+.bg:hover{
+    opacity: 0.9; 
+    background-position: top; 
+}
+
+.otw{
+    background-image: url("OnTheWay.png");
+    background-repeat: no-repeat;
+}
+
+.js{
+    background-image: url("JustSlide.png");
+}
+.js2{
+    background-image: url("JustSlide2.png");
+}
+.jsr{
+    background-image: url("JS-remastered.png");
+    
+}
+
+.bb{
+    background-image: url("BouncingBall.png");
+    background-position: top left;
+}
+
+.fr{
+    background-image: url("FruitReset.png");
+}
+
+.sc{
+    background-image: url("SelectiveCopier.png");
+    background-position: top left;
+}
+
+.cp{
+    background-image: url("ColorPicker.png");
+}
+
+.fd{
+    background-image: url("FaceDetector.png");
+}
+.sr{
+    background-image: url("ScreenRecorder.png");
+}
+
