@@ -1,11 +1,14 @@
 body{
     margin:0px;
+    margin-top: 10px;
     font-family: "Baloo Tammudu 2";
 }
 a{
     text-decoration: none;
 
 }
+
+
 #nav-bar{
     list-style: none;
     margin: 0;
@@ -14,13 +17,17 @@ a{
     background-color: #679b9b;
     font-family: "Baloo Tammudu 2";
     box-shadow: 0 0 5px 2px;
-    position: relative;
+
+    display: block;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    opacity: 1;
    
 }
 
 .navbar{
     float: right;
-
     display: block;
     color:#f8f4f4;
     text-align: center;
@@ -47,7 +54,8 @@ a{
 
 
 .profile{
-    margin: 27px;
+    margin: 15px;
+    margin-top: 0px;
     width: 30vw;
     min-width: 320px;
     height: auto;
@@ -99,7 +107,8 @@ h1{
     color:#59466b;
     margin-top: 150px;
     font-size: 45px;
-    text-align: center;    
+    text-align: center;
+        
 }
 
 .project-container{
