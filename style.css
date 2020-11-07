@@ -55,7 +55,7 @@ a{
     float: right;
     box-shadow: 0 0 10px 1px;
     border: 10px solid #214252;
-    animation: pfp 1.5s ease-out;
+    
 
    
     
@@ -65,10 +65,6 @@ a{
     box-shadow: 0 0 5px 5px;
 }
 
-@keyframes pfp{
-    from{ width: 300px; height: 300px; opacity: 0.3;}
-    to { width: 35%; height: 450px; opacity: 1;}
-}
 
 
 
