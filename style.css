@@ -49,16 +49,13 @@ a{
 
 .profile{
     margin: 27px;
-    width: 35%;
+    width: 30vw;
+    min-width: 320px;
     height: auto;
     border-radius: 50%;
     float: right;
     box-shadow: 0 0 10px 1px;
     border: 10px solid #214252;
-    
-
-   
-    
 }
 
 .profile:hover{
