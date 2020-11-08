@@ -5,12 +5,16 @@ body{
 }
 a{
     text-decoration: none;
-
+   
+}
+* {
+    scroll-behavior: smooth;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #679b9b;
+    background-color: #2c2f2f;
+    
     box-shadow: 0 0 5px 2px;
     overflow: hidden;
     display: block;
@@ -32,13 +36,13 @@ a{
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #a1dddd;
-    color: black;
+    background-color: #525252;
+    
   }
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: #338d99;
+    background-color: #646464;
     color: white;
   }
   
@@ -58,9 +62,10 @@ a{
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {position: fixed;}
     .topnav.responsive a.icon {
       position: absolute;
+      
       right: 0;
       top: 0;
     }
@@ -92,9 +97,6 @@ a{
 .profile:hover{
     box-shadow: 0 0 5px 5px;
 }
-
-
-
 
 
 h1{
@@ -138,7 +140,7 @@ h1{
 .project-container{
    display: flex;
    flex: initial;
-   background-color: #b6e9d5;
+   background-color: #505050;
    margin-top: 1.5rem;
    justify-content: center;
    flex-direction: row ;
@@ -203,7 +205,7 @@ h1{
 
 }
 .bg:hover{
-    opacity: 0.9; 
+    opacity: 1; 
     background-position: top; 
 }
 
