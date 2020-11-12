@@ -3,7 +3,7 @@
     <head>
         <link href = "style.css" rel = "stylesheet" type = "text/css" >
         <script src = "script.js" type = ></script>
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport"  charset="UTF-8" content="width=device-width, initial-scale=1">
     </head>
 
@@ -17,18 +17,29 @@
     <body>
         
        
-        <div  id="nav-bar">
-            <a href = "#Contact" class="navbar">Contact</a>
-            <a href = "#Blogs"class="navbar">Blogs</a>
-            <a href = "#my-works"class="navbar">My Works</a>
-            <a href = "#heading-center"class="navbar">About Me</a>
+        <div class="topnav" id="myTopnav">
+            <a href="#" class="active">Home</a>
+            <a href="#subheading-center">My Works</a>
+            <a href="#blogs">My Blogs</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
           </div>
+
+
     
 
-   <div class="phase1"></div><img src = "aditya.jpg" alt ="Aditya.jpg" class ="profile"> 
+   <div id="Home">
+
+   <img src = "aditya.jpg" alt ="Aditya.jpg" class ="profile"> 
     <h1><span style = "color: #000000;" >Hello! I'm </span> <i>Aditya Chaudhary</i></h1> 
     <div class ="short-intro">I am a Student, learner, programmer, CSS aritst, game developer, blogger and above all, a <b>Human Being! </b> <br>
-                                Currently, I am a 12th Grade student and learning something new everyday :) </div>
+                                Currently, I am a 12th Grade student and learning something new everyday :)
+     </div>
+
+    </div>
+
     <h2 id ="heading-center">My Projects</h2>
     <p id = "subheading-center">My games</p>
 
@@ -137,8 +148,14 @@
         </p>
         </a>
     </div>
-    
+    </div>
 
+<div id="contact">
+
+    <a href="#" class="fa fa-twitter"></a>
+    <i class="fab fa-discord"></i>
+    
+</div>
 
 </body>                         
 </html>
