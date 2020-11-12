@@ -18,11 +18,14 @@ a{
     
     box-shadow: 0 0 5px 2px;
     overflow: hidden;
+
     display: block;
     position: fixed;
     width: 100%;
     top: 0px;
   }
+  
+
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -77,7 +80,7 @@ a{
         margin-top: 10vh !important;
     }
 
-    
+
 
     .topnav a{
         font-size: 3.8vw!important;
