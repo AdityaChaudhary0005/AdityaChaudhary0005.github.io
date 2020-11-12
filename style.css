@@ -18,14 +18,11 @@ a{
     
     box-shadow: 0 0 5px 2px;
     overflow: hidden;
-
     display: block;
     position: fixed;
     width: 100%;
     top: 0px;
   }
-  
-
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -55,6 +52,10 @@ a{
     display: none;
   }
 
+
+
+  
+
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -80,8 +81,6 @@ a{
         margin-top: 10vh !important;
     }
 
-
-
     .topnav a{
         font-size: 3.8vw!important;
     }
@@ -94,11 +93,6 @@ a{
       text-align: left;
     }
   }
-
-
-
-
-
 
 
 .profile{
@@ -141,7 +135,6 @@ h1{
 
 #heading-center{
     color: #214252;
-    
     margin-top: 70px;
     font-size: 45px;
     text-align: center;
@@ -274,24 +267,30 @@ h1{
     background-image: url("ScreenRecorder.png");
 }
 
-
-.fa{
-    padding: 2vw;
-    font-size: 3.8vw !important;
-    width: 3.8vw !important;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+.tb{
+    background-image: url("https://cdn.pixabay.com/photo/2014/05/03/00/31/home-office-336581_960_720.jpg");
 }
 
+.sb{
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/15/08/48/social-3607508_960_720.jpg");
+}
 
-.fa:hover{
+#contact{
+    float: right;
+}
+.fx{
+  padding: 20px;
+  font-size: 35px !important;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  background:#2c2f2f;
+  color: white;
+}
+
+.fa:hover, .fx:hover {
     opacity: 0.7;
 }
-
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
 
